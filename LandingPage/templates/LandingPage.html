@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Our Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget erat eu ligula tincidunt
+            ullamcorper. Donec eget fermentum nunc.</p>
+        <div>
+            <a href="{% url 'Signup:signuppage' %}">
+                <button>Sign Up</button>
+            </a>
+            <a href="{%url 'Login:loginpage'%}">
+                <button>Login</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
