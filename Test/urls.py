@@ -23,4 +23,6 @@ urlpatterns = [
     path('LoginPage/',include('LoginPage.urls')),
     path('MainApp/',include('MainApp.urls')),
     path('SignupPage/',include('SignupPage.urls')),
+    path('api-auth/', include('rest_framework.urls')),
+
 ]

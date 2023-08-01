@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'LoginPage',
     'MainApp',
     'SignupPage',
+    'rest_framework',
     
 ]
 

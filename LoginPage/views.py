@@ -16,4 +16,4 @@ class Login(View):
         else:
             # Authentication failed, show an error message
             context = {'error_message': 'Invalid username or password'}
-            return render(request, 'Login:loginpage', context)
+            return render(request, 'LoginPage.html', context)
